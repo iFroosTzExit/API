@@ -1,18 +1,8 @@
 <?php
 
-/**
- * Classe de funções para ser úteis no sistema
- * 
- * @author Evandro Campos Teixeira Pires 
- * @category Funcoes
- */
+namespace Api\Function;
 
 class Funcoes {
-
-    /**
-     * @param mixed $info
-     * @return html 
-     */
     public static function debug($info) {
         $html = "<div class='container'>";
 
